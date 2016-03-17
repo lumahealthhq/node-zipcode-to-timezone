@@ -4,7 +4,7 @@
   "description": "Converts a timezone to a zipcode",
   "main": "index.js",
   "scripts": {
-    "test": "node --harmony ./node_modules/.bin/_mocha -R tests/reporter.js tests/\"",
+    "test": "node --harmony ./node_modules/.bin/_mocha tests/",
     "deploy": "publish"
   },
   "repository": {
@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/DoubleDor/node-zipcode-to-timezone#readme",
   "devDependencies": {
+    "chai": "^3.5.0",
     "mocha": "^2.4.5",
     "publish": "^0.5.0",
     "q": "^1.4.1",
