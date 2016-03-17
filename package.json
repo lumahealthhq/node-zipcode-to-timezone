@@ -1,0 +1,24 @@
+{
+  "name": "node-zipcode-to-timezone",
+  "version": "1.0.0",
+  "description": "Converts a timezone to a zipcode",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --harmony ./node_modules/.bin/_mocha -R tests/reporter.js tests/\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/DoubleDor/node-zipcode-to-timezone.git"
+  },
+  "keywords": [
+    "timezone",
+    "zipcode",
+    "convert"
+  ],
+  "author": "Mike Lyons <mdl0394@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DoubleDor/node-zipcode-to-timezone/issues"
+  },
+  "homepage": "https://github.com/DoubleDor/node-zipcode-to-timezone#readme"
+}
