@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/DoubleDor/node-zipcode-to-timezone/issues"
   },
-  "homepage": "https://github.com/DoubleDor/node-zipcode-to-timezone#readme"
+  "homepage": "https://github.com/DoubleDor/node-zipcode-to-timezone#readme",
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  }
 }
