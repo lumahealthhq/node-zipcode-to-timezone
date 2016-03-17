@@ -1,3 +1,14 @@
+/**
+ * @file tests/lookup.js
+ *
+ * @description tests lookup function using some known zipcodes
+ *
+ * Copyright (C) 2016 Dor Technologies
+ *
+ * This software may be modified and distributed under the terms
+ * of the MIT license.  See the LICENSE file for details.
+ */
+
 var _ = require( 'underscore' ),
     assert = require( 'chai' ).assert;
 
