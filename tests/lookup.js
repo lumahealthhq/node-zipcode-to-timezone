@@ -15,10 +15,10 @@ var _ = require( 'underscore' ),
 var zipcode_to_timezone = require( '../' );
 
 var test_zipcodes = {
-    '21114': 'EDT',
-    '94110': 'PDT',
-    '06419': 'EDT',
-    '93460': 'PDT',
+    '21114': 'America/New_York',
+    '94110': 'America/Los_Angeles',
+    '06419': 'America/New_York',
+    '93460': 'America/Los_Angeles',
     '00000': null
 };
 
