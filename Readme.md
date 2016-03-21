@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-npm install --save zipcode-to-timzone
+npm install --save node-zipcode-to-timezone
 ```
 
 ## Usage
