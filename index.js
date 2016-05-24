@@ -45,9 +45,9 @@ var TIMEZONE_MAP = Object.freeze ({
  *                        for the zipcode, null if not found
  */
 exports.lookup = function( zipcode ) {
-    if( zipcode_database.hasOwnProperty( zipcode ) ) {
-        timezone_index = zipcode_database[ zipcode ];
-        if( TIMEZONE_MAP.hasOwnProperty( timezone_index )) {
+    if ( zipcode_database.hasOwnProperty( zipcode ) ) {
+        var timezone_index = zipcode_database[ zipcode ];
+        if ( TIMEZONE_MAP.hasOwnProperty( timezone_index )) {
             return TIMEZONE_MAP[ timezone_index ];
         }
     }
