@@ -39,9 +39,9 @@ var TIMEZONE_MAP = Object.freeze ({
   24: "America/Yakutat"
 });
 /**
- * Looks up zipcode in zipcode.json
- * @param  {String} zipcode The zipcdoe to lookup, as a String
- * @return {String|null}  Return long name timezone name (e.g. America/Los_angeles)
+ * Looks up zipcode in zipcodes.json
+ * @param  {String} zipcode The zipcode to lookup, as a String
+ * @return {String|null}  Return long name timezone name (e.g. America/Los_Angeles)
  *                        for the zipcode, null if not found
  */
 exports.lookup = function( zipcode ) {
