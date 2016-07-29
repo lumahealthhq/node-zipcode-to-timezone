@@ -1,4 +1,4 @@
-# zipcode-to-timzone
+# zipcode-to-timezone
 
 ## Installation
 
